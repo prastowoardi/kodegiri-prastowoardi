@@ -1,0 +1,34 @@
+{
+    "testData": [
+        {
+            "case": "Email kosong",
+            "email": null,
+            "password": "K0d3g1r!#"
+        },
+        {
+            "case": "Password kosong",
+            "email": "qa1@kodegiri.com",
+            "password": null
+        },
+        {
+            "case": "Email salah",
+            "email": "qa2@kodegiri.com",
+            "password": "K0d3g1r!#"
+        },
+        {
+            "case": "Password salah",
+            "email": "qa1@kodegiri.com",
+            "password": "K0d3g1r!"
+        },
+        {
+            "case": "Email salah format",
+            "email": "qa1@kodegiri",
+            "password": "K0d3g1r!#"
+        },
+        {
+            "case": "Credential Benar",
+            "email": "qa1@kodegiri.com",
+            "password": "K0d3g1r!#"
+        }
+    ]
+}
